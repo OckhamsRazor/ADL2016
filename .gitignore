@@ -5,6 +5,6 @@ __pycache__
 corpus/
 output/
 vec_*
-
+.nfs*
 
 filter_*

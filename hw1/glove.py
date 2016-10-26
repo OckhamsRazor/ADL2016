@@ -8,7 +8,7 @@ import tf_glove
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='GloVe encoder')
     parser.add_argument(
-        "-c", "--corpus", help="training data file", default="corpus/text8"
+        "-i", "--corpus", help="training data file", default="corpus/text8"
     )
     parser.add_argument(
         "-o", "--output", help="output", default="vec_glove"
@@ -27,7 +27,7 @@ if __name__ == '__main__':
     )
     args = parser.parse_args()
 
-    corpus_file = args.corpus_file
+    corpus_file = args.corpus
     output = args.output
     log_dir = args.log_dir
 
