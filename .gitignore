@@ -1,3 +1,10 @@
 *.pyc
 __pycache__
 *.sublime-*
+
+corpus/
+output/
+vec_*
+
+
+filter_*
